@@ -1,0 +1,101 @@
+{
+  "seed": 42,
+  "test_indices": [
+    858,
+    891,
+    941,
+    2013,
+    4325,
+    4383,
+    5262,
+    6537,
+    6968,
+    7174,
+    7355,
+    7609,
+    7728,
+    7860,
+    8577,
+    9752
+  ],
+  "reconstruction_test": {
+    "images": 10000,
+    "ae_mse": 0.020293449983000755,
+    "vae_mse": 0.03298721835017204,
+    "ae_bce_per_pixel": 0.3068220615386963,
+    "vae_bce_per_pixel": 0.34054359793663025,
+    "ae_bce_per_image": 240.54849243164062,
+    "vae_bce_per_image": 266.9861755371094,
+    "vae_kl_test": 6.301778316497803
+  },
+  "reconstruction_mse_by_class": [
+    {
+      "clase": "Camiseta",
+      "ae_mse": 0.018325787037611008,
+      "vae_mse": 0.03106844797730446
+    },
+    {
+      "clase": "Pantalón",
+      "ae_mse": 0.013941887766122818,
+      "vae_mse": 0.022954227402806282
+    },
+    {
+      "clase": "Suéter",
+      "ae_mse": 0.0193934328854084,
+      "vae_mse": 0.03143918886780739
+    },
+    {
+      "clase": "Vestido",
+      "ae_mse": 0.018539955839514732,
+      "vae_mse": 0.03168065845966339
+    },
+    {
+      "clase": "Abrigo",
+      "ae_mse": 0.017798706889152527,
+      "vae_mse": 0.03143627569079399
+    },
+    {
+      "clase": "Sandalia",
+      "ae_mse": 0.029714493080973625,
+      "vae_mse": 0.03824114426970482
+    },
+    {
+      "clase": "Camisa",
+      "ae_mse": 0.019114237278699875,
+      "vae_mse": 0.029509296640753746
+    },
+    {
+      "clase": "Zapatilla",
+      "ae_mse": 0.015321027487516403,
+      "vae_mse": 0.01949828304350376
+    },
+    {
+      "clase": "Bolso",
+      "ae_mse": 0.02954717166721821,
+      "vae_mse": 0.06212202087044716
+    },
+    {
+      "clase": "Botín",
+      "ae_mse": 0.02123778685927391,
+      "vae_mse": 0.03192266821861267
+    }
+  ],
+  "generation": {
+    "samples": 16,
+    "nearest_train_distance_mean": 2.7946894523787735,
+    "nearest_train_distance_min": 1.6131175675415625,
+    "test_to_train_distance_mean": 3.893456478939597,
+    "pairwise_distance_generated_mean": 6.346452294743903,
+    "pairwise_distance_generated_min": 0.7291834806006716,
+    "pairwise_distance_test_mean": 11.664429029145685,
+    "pairwise_distance_test_min": 6.250274350730309,
+    "nearest_neighbor_classes": {
+      "Camiseta": 1,
+      "Suéter": 3,
+      "Camisa": 9,
+      "Zapatilla": 1,
+      "Bolso": 1,
+      "Botín": 1
+    }
+  }
+}
